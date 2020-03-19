@@ -22,9 +22,15 @@
     <% List<Book> books; %>
     <body>
         <div class="container">
+            <nav class="navbar navbar-light bg-light">
+                <a class="navbar-brand" href="#">
+                    <img src="../assets/img/logo.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+                        BookWorm World</a>
+            </nav>
+
             <jsp:useBean id="BookBean" class="application.BookBean" scope="session"/>
 
-            <header class="">
+            <header class="login">
                 <div class="container h-100">
                     <div class="row h-100 align-items-center justify-content-center text-center">
                         <div class="col-lg-10 align-self-end">
@@ -41,7 +47,8 @@
                     for (int i = 0; i < books.size(); i++) {%>
                 <p>
                     <%=(i+1)+". "+books.get(i)%>
-                </p> 
+                </p>
+                <hr class="divider my-4" />
                 <%}%>
             </div>
             

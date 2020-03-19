@@ -18,7 +18,7 @@
         <div class="container">
             <nav class="navbar navbar-light bg-light">
                 <a class="navbar-brand" href="#">
-                <img src="/Users/sachitgagneja/Documents/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+                <img src="/Users/sachitgagneja/Documents/BookReviewWebsite/BookReviewWebsite/web/assets/img/logo.svg" width="30" height="30" class="d-inline-block align-top" alt="">
                 BookWorm World</a>
             </nav>
             

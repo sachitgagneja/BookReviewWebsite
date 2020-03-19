@@ -28,6 +28,12 @@
     
     <body>
         <div class="container">
+            <nav class="navbar navbar-light bg-light">
+                <a class="navbar-brand" href="#">
+                    <img src="../assets/img/logo.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+                        BookWorm World</a>
+            </nav>
+
         <jsp:useBean id="BookBean" class="application.BookBean" scope="session"/>
 
         <%
@@ -35,7 +41,7 @@
         %>
 
         <% if (check == true) { %>
-            <header class="addReview">
+            <header class="login">
                 <div class="container h-100">
                     <div class="row h-100 align-items-center justify-content-center text-center">
                         <div class="col-lg-10 align-self-end">
@@ -52,7 +58,7 @@
         <%} else {
         %>
 
-        <header class="addReview">
+        <header class="login">
             <div class="container h-100">
                 <div class="row h-100 align-items-center justify-content-center text-center">
                     <div class="col-lg-10 align-self-end">
